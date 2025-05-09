@@ -49,6 +49,10 @@ code, pre{
     color: #fff;
     padding: 10px;
 }
+.hidden{
+    visibility: hidden;
+    height: 0;
+}
 
 /* navbar */
 .navbar{
@@ -378,4 +382,126 @@ code, pre{
         padding: 10px;
         background-color: rgb(0, 0, 0, 0.1);
     }
+    
 }
+
+@media (max-width: 480px) {
+    /* Further adjustments for smaller screens */
+    .features-head h1,
+    .features-sub-head h1 {
+      font-size: 1.5rem;
+    }
+  
+    .features-head p,
+    .features-sub-head p {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    /* Make the sections stack in block layout */
+    .features-head,
+    .features-sub-head {
+      display: block;
+      text-align: center; /* Center the text */
+      padding: 2rem 1rem;
+    }
+  
+    /* Stack the content within each section */
+    .features-head .container,
+    .features-sub-head .container {
+      display: block;
+      width: 100%;
+    }
+  
+    .features-head .container > div,
+    .features-sub-head .container > div {
+      margin-bottom: 1.5rem; /* Add space between text and image */
+    }
+  
+    /* Adjust image to fit and center */
+    .features-head img,
+    .features-sub-head img {
+      max-width: 90%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  
+    /* Adjust headings for readability on smaller screens */
+    .features-head h1,
+    .features-sub-head h1 {
+      font-size: 1.75rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    /* Adjust paragraph font size for smaller screens */
+    .features-head p,
+    .features-sub-head p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
+  
+  /* Further adjustments for very small screens */
+  .features-head h1,
+  .features-sub-head h1 {
+    font-size: 1.5rem;
+  }
+
+  .features-head p,
+  .features-sub-head p {
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 768px) {
+    /* Make the docs-head section stack in block layout */
+    .docs-head {
+      display: block;
+      text-align: center; /* Center the text */
+      padding: 2rem 1rem;
+    }
+  
+    /* Stack the content inside docs-head */
+    .docs-head .container {
+      display: block;
+      width: 100%;
+    }
+  
+    .docs-head .container > div {
+      margin-bottom: 1.5rem; /* Add space between text and image */
+    }
+  
+    /* Adjust the image to fit and center */
+    .docs-head img {
+      max-width: 90%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  
+    /* Adjust the heading size for better readability */
+    .docs-head h1 {
+      font-size: 1.75rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    /* Adjust the paragraph text */
+    .docs-head p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .docs-head h1 {
+      font-size: 1.5rem;
+    }
+  
+    .docs-head p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  
